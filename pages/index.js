@@ -18,6 +18,8 @@ export default function Home() {
     }, []);
 
     return (
+        <>
+        <Seo title="Home"/>
         <div className="container">
             <Seo title="Home" />
             {!movies && <h4>Loading...</h4>}
@@ -49,5 +51,6 @@ export default function Home() {
         }
       `}</style>
         </div>
+        </>
     );
 }
