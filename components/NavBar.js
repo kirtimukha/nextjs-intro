@@ -17,7 +17,7 @@ export default function NavBar() {
             </div>
             <style jsx>
             {`
-                nav {
+                nav { 
                   display: flex;
                   gap: 10px;
                   flex-direction: column;
